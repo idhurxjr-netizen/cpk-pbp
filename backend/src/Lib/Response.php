@@ -25,4 +25,10 @@ final class Response
 
         self::json($payload, $status);
     }
+
+    public static function noContent(): never
+    {
+        http_response_code(204);
+        exit;
+    }
 }
