@@ -1,0 +1,13 @@
+backend/config/config.local.php
+backend/config/firebase-service-account.json
+backend/storage/uploads/*
+!backend/storage/uploads/**/.gitkeep
+
+.env
+backend/.env
+
+node_modules/
+frontend/node_modules/
+
+.vscode/
+*.log
